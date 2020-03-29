@@ -10,7 +10,7 @@ public with sharing class PropertyController {
         return [
             SELECT
                 Id,
-                address__c,
+                Address__c,
                 city__c,
                 state__c,
                 description__c,
