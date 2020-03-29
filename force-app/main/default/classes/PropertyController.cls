@@ -27,7 +27,7 @@ public with sharing class PropertyController {
                 OR tags__c LIKE :key)
                 AND price__c <= :maxPrice
                 AND beds__c >= :minBedrooms
-                AND baths__c >= :minBathrooms
+                AND Baths__c >= :minBathrooms
             WITH SECURITY_ENFORCED
             ORDER BY price__c
             LIMIT 50 //Done by Talant
