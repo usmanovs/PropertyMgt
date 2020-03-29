@@ -3,6 +3,7 @@
   <component name="FacetManager">
     <facet type="IlluminatedCloud" name="Illuminated Cloud">
       <configuration>
+        <option name="connectionName" value="Bootcamp" />
         <option name="connectionType" value="SFDX" />
         <option name="moduleContents">
           <ModuleContents>
@@ -20,7 +21,7 @@
     <content url="file://$MODULE_DIR$/force-app">
       <sourceFolder url="file://$MODULE_DIR$/force-app/main/default" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="IlluminatedCloud (PropertyMgt/March22a)" jdkType="IlluminatedCloud" />
+    <orderEntry type="jdk" jdkName="IlluminatedCloud (PropertyMgt/Bootcamp)" jdkType="IlluminatedCloud" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
