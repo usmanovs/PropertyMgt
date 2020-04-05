@@ -1,9 +1,5 @@
-/**
- * Created by susmanov on 4/5/20.
- */
+import { LightningElement } from 'lwc';
 
-import {LightningElement} from 'lwc';
-
-export default class Slider extends LightningElement {
-
+export default class LightningExampleSliderBasic extends LightningElement {
+    val = 50;
 }

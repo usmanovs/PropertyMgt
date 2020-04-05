@@ -1,7 +1,8 @@
-<!--
- - Created by susmanov on 4/4/20.
- -->
-
-<!-- Check Box Group -->
 <template>
+    <lightning-checkbox-group name="Checkbox Group"
+                              label="Checkbox Group"
+                              options={options}
+                              value={value}
+                              onchange={handleChange}></lightning-checkbox-group>
+    <p>Selected Values are: {selectedValues}</p>
 </template>

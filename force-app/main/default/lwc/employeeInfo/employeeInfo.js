@@ -5,5 +5,6 @@
 import {LightningElement} from 'lwc';
 
 export default class EmployeeInfo extends LightningElement {
+    space = false;
 
 }

@@ -4,4 +4,9 @@
 
 <!-- Employee Info -->
 <template>
+    <lightning-card title="Employee Info">
+        <div if:false={space}>I am false </div>
+
+        <div if:true={space}>I am true </div>
+    </lightning-card>
 </template>
